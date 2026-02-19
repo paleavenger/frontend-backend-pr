@@ -12,7 +12,6 @@ app.use(cors({
     methods: ["GET", "POST", "PATCH", "DELETE"],
 }));
 
-// ===== Товары (минимум 10) =====
 let products = [
     {
         id: nanoid(6),

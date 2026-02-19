@@ -25,7 +25,6 @@ export default function ProductModal({
         setImage(initialData?.image || "");
     }, [open, initialData]);
 
-    // Закрытие по Esc
     useEffect(() => {
         const handleEsc = (e) => {
             if (e.key === "Escape") onClose();
