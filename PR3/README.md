@@ -1,0 +1,12 @@
+# CRUD ЗАПРОСЫ ДЛЯ ПРАКТИЧЕСКОЙ РАБОТЫ 2 С ИСПОЛЬЗОВАНИЕМ POSTMAN
+![GET](./PR3/screens/get-my-api.png)
+![GETID](./PR3/screens/getid-my-api.png)
+![DELETE](./PR3/screens/delete-my-api.png)
+![PATCH](./PR3/screens/patch-my-api.png)
+![POST](./PR3/screens/post-my-api.png)
+# ЗАПРОСЫ В POSTMAN ДЛЯ ПРАКТИЧЕСКОЙ РАБОТЫ 3 С ИСПОЛЬЗОВАНИЕМ API курса валют (ExchangeRate-API)
+![USD](./PR3/screens/EXCHANGE-LATEST-USD.png)
+![EUR](./PR3/screens/EXCHANGE-LATEST-EUR.png)
+![EURGBP](./PR3/screens/EUR-TO-GBP.png)
+![USDJPY](./PR3/screens/USD-TO-JPY.png)
+![EURKZT](./PR3/screens/EUR-KZT.png)
