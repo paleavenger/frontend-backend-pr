@@ -2,7 +2,11 @@ export default function ProductCard({ product, onEdit, onDelete }) {
     return (
         <div className="card">
             <div className="card-img-container">
-                <img src={product.image} className="card-img" />
+                <img
+                    src={product.image}
+                    alt={product.title}
+                    className="card-img"
+                />
             </div>
 
             <div className="card-body">
@@ -13,6 +17,10 @@ export default function ProductCard({ product, onEdit, onDelete }) {
                 <p className="card-price">
                     <strong>{product.price} $</strong>
                 </p>
+
+                <button className="card-button">
+                    Купить
+                </button>
 
                 <div className="admin-buttons">
                     <button onClick={() => onEdit(product)}>

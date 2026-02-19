@@ -192,6 +192,27 @@ body {
     background: #1e40af;
 }
 
+.admin-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.admin-buttons button {
+    flex: 1;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid #1f2937;
+    background: #0b1019;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.admin-buttons button:hover {
+    background: #1f2937;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
